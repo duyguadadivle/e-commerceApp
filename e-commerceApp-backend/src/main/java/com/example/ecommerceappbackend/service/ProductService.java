@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class ProductService {
+public class ProductService implements IProductService{
 
     //@Autowired
     public ProductService(ProductRepository productRepository) {
@@ -16,20 +16,30 @@ public class ProductService {
 
     private ProductRepository productRepository;
 
+    @Override
     public Product saveProduct(Product product) {
         return productRepository.save(product);
     }
+
+    @Override
     public List<Product> getProductList(){
         return productRepository.findAll(); }
+
+    @Override
     public Product findById(Long id){
         return productRepository.findById(id).get();
     }
 
-    public List<Product> findByCategoryName( String CategoryName){
-        return productRepository.findByCategoryName(CategoryName);
+    @Override
+    public List<Product> findByCategoryName( String categoryName){
+        return productRepository.findByCategoryName(categoryName);
     }
 
+    @Override
     public void deleteProduct(Long Id) {
         productRepository.deleteById(Id);
     }
+
+
+
 }
