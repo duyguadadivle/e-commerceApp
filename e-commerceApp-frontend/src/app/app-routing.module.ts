@@ -1,9 +1,9 @@
-import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ProductComponent } from './component/products/product/product.component';
-import { ProductsComponent } from './component/products/products.component';
+import { ProductsComponent } from './component/products/products.component'
+import { ProductComponent } from './component/products/product/product.component'
 import { ShoppingcartComponent } from './shoppingcart/shoppingcart.component';
+import { CommonModule } from '@angular/common';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -18,9 +18,10 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes), CommonModule],
+  imports: [RouterModule.forRoot(routes),
+  CommonModule],
   exports: [RouterModule]
 })
-export class AppRoutingModule { 
+export class AppRoutingModule {
   
-}
+ }
