@@ -49,13 +49,13 @@ public class InitializerRunner implements CommandLineRunner {
        Product product17 = new Product("Unisex Güneş Gözlüğü ", 299.0, "https://cdn.dsmcdn.com/ty157/product/media/images/20210812/11/118001523/148670287/1/1_org_thumb.jpg", "aksesuar", "Mathilda Unisex Güneş Gözlüğü");
        Product product18 = new Product("Beyaz T-shirt", 199.0 ,"https://cdn.dsmcdn.com/ty395/product/media/images/20220413/0/89633830/162251546/1/1_org_zoom.jpg", "erkek", "Örme Oversize Beyaz T-shirt");
        Product product19 = new Product("Gap Çocuk T-shirt", 170.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty503/product/media/images/20220810/12/157427876/239769720/1/1_org_zoom.jpg", "cocuk", "GAP Erkek BebekKapüşonlu Sweatshirt");
-       Product product20 = new Product("AVVA Erkek T-shirt", 119.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty434/product/media/images/20220518/4/112958623/481728584/1/1_org_zoom.jpg", "cocuk", "Kız Çocuk Şort Takım");
+       Product product20 = new Product("Karışık Kuruyemiş", 130.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty31/product/media/images/20201203/8/34646817/22254398/1/1_org_zoom.jpg", "supermarket", "Çakır Çerez Lüks Karışık Kuruyemiş 1 Kg");
        Product product21 = new Product("Kadın elbise", 130.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty502/product/media/images/20220810/17/157580809/540795050/1/1_org_zoom.jpg", "kadin","V Yaka Dökümlü Salaş Maxi Saten Elbise ");
        Product product22 = new Product("Rexona Kadın Sprey", 140.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty507/product/media/images/20220815/15/160183215/58342769/1/1_org_zoom.jpg", "kozmetik", "Shower Fresh 200 ml X3 Adet");
        Product product23 = new Product("Hummal Çanta", 399.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty86/product/media/images/20210317/15/73072539/15837335/1/1_org_zoom.jpg", "spor ve outdoor", "HUMMEL Unisex Sırt Çantası - David Back Pack");
        Product product24 = new Product("Lacivert T-shirt", 120.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty138/product/media/images/20210630/14/105799921/150342417/1/1_org_zoom.jpg", "erkek", "Polo Yaka Cepli Regular Fit Bol Kesim Düz Tişört");
        Product product25 = new Product("Jacobs", 150.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty35/product/media/images/20201218/8/39547279/66906671/1/1_org_zoom.jpg", "supermarket", "Selection Filtre Kahve 250 gr 4 Al 3 Öde");
-       Product product26 = new Product("Karışık Kuruyemiş", 130.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty31/product/media/images/20201203/8/34646817/22254398/1/1_org_zoom.jpg", "supermarket", "Çakır Çerez Lüks Karışık Kuruyemiş 1 Kg");
+       Product product26 = new Product("Çocuk Takım", 119.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty434/product/media/images/20220518/4/112958623/481728584/1/1_org_zoom.jpg", "cocuk", "Kız Çocuk Şort Takım");
        //Product product27 = new Product("", 270.0, "", "", "");
        //Product product28 = new Product("", 430.0 ,"", "", "");
        //Product product29 = new Product("", 199.0 ,"", "", "");
