@@ -1,5 +1,6 @@
 package com.example.ecommerceappbackend.utils;
 
+import com.example.ecommerceappbackend.model.Category;
 import com.example.ecommerceappbackend.model.Product;
 import com.example.ecommerceappbackend.repository.CategoryRepository;
 import com.example.ecommerceappbackend.repository.ProductRepository;
@@ -28,6 +29,17 @@ public class InitializerRunner implements CommandLineRunner {
 
 
        productRepository.deleteAll();
+       categoryRepository.deleteAll();
+
+       Category category1 = new Category("kadin");
+       Category category2 = new Category("erkek");
+       Category category3 = new Category("cocuk");
+       Category category4 = new Category("supermarket");
+       Category category5 = new Category("aksesuar");
+       Category category6 = new Category("elektronik");
+       Category category7 = new Category("kozmetik");
+       Category category8 = new Category("ev ve yasam");
+       Category category9 = new Category("spor ve outdoor");
 
 
        Product product1 = new Product("Monster Abra A5 V18.1.1", 2200.0, "https://cdn.dsmcdn.com/ty343/product/media/images/20220228/15/59976124/191277609/1/1_org_thumb.jpg", "elektronik", "Monster Abra A5 V18.1.1");
@@ -56,16 +68,7 @@ public class InitializerRunner implements CommandLineRunner {
        Product product24 = new Product("Lacivert T-shirt", 120.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty138/product/media/images/20210630/14/105799921/150342417/1/1_org_zoom.jpg", "erkek", "Polo Yaka Cepli Regular Fit Bol Kesim Düz Tişört");
        Product product25 = new Product("Jacobs", 150.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty35/product/media/images/20201218/8/39547279/66906671/1/1_org_zoom.jpg", "supermarket", "Selection Filtre Kahve 250 gr 4 Al 3 Öde");
        Product product26 = new Product("Çocuk Takım", 119.0, "https://cdn.dsmcdn.com/mnresize/1200/1800/ty434/product/media/images/20220518/4/112958623/481728584/1/1_org_zoom.jpg", "cocuk", "Kız Çocuk Şort Takım");
-       //Product product27 = new Product("", 270.0, "", "", "");
-       //Product product28 = new Product("", 430.0 ,"", "", "");
-       //Product product29 = new Product("", 199.0 ,"", "", "");
-       //Product product30 = new Product("", 1700.0, "", "", "");
-       //Product product31 = new Product("", 90.0, "", "", "");
-       //Product product32 = new Product("", 80.0, "", "", "");
-       //Product product33 = new Product("", 200.0, "", "", "");
-       //Product product34 = new Product("", 189.0, "","", "");
-       //Product product35 = new Product("", 269.0, "", "", "");
-       //Product product36 = new Product("", 185.0 ,"", "", "");
+
 
        productRepository.save(product1);
        productRepository.save(product2);
@@ -93,16 +96,19 @@ public class InitializerRunner implements CommandLineRunner {
        productRepository.save(product24);
        productRepository.save(product25);
        productRepository.save(product26);
-       //productRepository.save(product27);
-       //productRepository.save(product28);
-       //productRepository.save(product29);
-       //productRepository.save(product30);
-       //productRepository.save(product31);
-       //productRepository.save(product32);
-       //productRepository.save(product33);
-       //productRepository.save(product34);
-       //productRepository.save(product35);
-       //productRepository.save(product36);
+
+       categoryRepository.save(category1);
+       categoryRepository.save(category2);
+       categoryRepository.save(category3);
+       categoryRepository.save(category4);
+       categoryRepository.save(category5);
+       categoryRepository.save(category6);
+       categoryRepository.save(category7);
+       categoryRepository.save(category8);
+       categoryRepository.save(category9);
+
+
+
 
         logger.info("All test data is saved");
 
