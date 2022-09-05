@@ -13,6 +13,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>e-commerceApp-backend</name>
     <description>e-commerceApp-backend</description>
+
+    <packaging>jar</packaging>
+
     <properties>
         <java.version>17</java.version>
     </properties>
