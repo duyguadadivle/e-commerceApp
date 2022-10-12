@@ -6,7 +6,7 @@ Uygulamanın anasayfa görünümü aşağıdaki gibidir.
 ![img.png](woman-category.png)
 
 Ürün detay örnek sayfası - Kadın tişört detay 
-![img.png](woman-thsirt-detail)
+![img.png](woman-thsirt-detail.png)
 
 Sepet detayı
 ![img.png](basket1.png)
