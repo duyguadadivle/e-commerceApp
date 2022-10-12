@@ -9,8 +9,8 @@ Uygulamanın anasayfa görünümü aşağıdaki gibidir.
 ![img.png](woman-thsirt-detail)
 
 Sepet detayı
-![img.png](woman-thsirt-detail)
-![img.png](woman-thsirt-detail)
+![img.png](basket1.png)
+![img.png](basket2.png)
 
 
 Proje bir web uygulamasıdır. Proje backendi için Spring Boot, frontendi için Angular, database için PostgreSQL kullanılmıştır.
